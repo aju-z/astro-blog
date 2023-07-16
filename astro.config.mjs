@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://aju-blog-vercel.app",
+  site: "https://astro-blog-aju-z.vercel.app/",
   integrations: [
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
