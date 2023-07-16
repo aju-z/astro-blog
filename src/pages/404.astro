@@ -1,0 +1,32 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Link from "../components/Link.astro";
+---
+
+<MainLayout title="Page Not Found">
+  <div
+    class="container"
+    style={{
+      display: "grid",
+      placeItems: "center",
+      textAlign: "center",
+      gap: "var(--space-sm)",
+    }}
+  >
+    <div>
+      <img class="mb-8 w-full" src="/images/404.png" alt="page not found" />
+      <h1 class="h1">Welp, You are lost!</h1>
+    </div>
+    <div>
+      <p>Get Inside The Spaceship...</p>
+      <img
+        src="/images/spaceship.svg"
+        alt="SpaceShip"
+        width="190"
+        height="190"
+      />
+    </div>
+
+    <Link href="/" style="primary" text="Space Ship" />
+  </div>
+</MainLayout>

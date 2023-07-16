@@ -1,0 +1,21 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<footer>
+  <div class="footer">
+    <small>
+      &copy; <span id="copyright"></span> InkWise | All Rights Reserved.
+    </small>
+    <small class="rss-btn">
+      <a href="/rss.xml">RSS</a>
+      <Icon name="tabler:rss" width="20" height="20" />
+    </small>
+  </div>
+</footer>
+
+<script>
+  document.querySelector("#copyright").textContent = new Date()
+    .getFullYear()
+    .toString();
+</script>
