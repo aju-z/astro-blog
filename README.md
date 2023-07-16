@@ -7,6 +7,6 @@ npm create astro@latest -- --template minimal
 ### TechStack :
 
 - AstroJs
-- TypeScript
+- TypeScript (Relaxed)
 
 # astro-blog
